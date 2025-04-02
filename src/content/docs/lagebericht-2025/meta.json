@@ -1,11 +1,10 @@
 {
-    "title": "Atelier",
+    "title": "Die Lage der IT-Sicherheit in Deutschland 2025",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
     "root": true,
     "icon": "HousePlus",
     "pages": [
         "index",
-        "a-whales-tale",
         "story-example-1",
         "story-example-2"
     ]

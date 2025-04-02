@@ -1,5 +1,5 @@
 import Image from 'next-export-optimize-images/image'
-import Logo from '@/public/images/logo.png'
+import Logo from '@/public/images/logo-bsi.svg'
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared'
 
 import { HousePlus, Building2, ComponentIcon } from 'lucide-react'
@@ -15,12 +15,12 @@ import { HousePlus, Building2, ComponentIcon } from 'lucide-react'
 export const logo = (
 	<>
 		<Image
-			alt="Atelier für Innovatoren"
+			alt="Bundesamt für Sicherheit in der Informationstechnik"
 			src={Logo}
 			width={40}
 			height={40}
 			className="hidden w-10 md:block"
-			aria-label="Logo Atelier für Innovatoren"
+			aria-label="Bundesamt für Sicherheit in der Informationstechnik"
 		/>
 	</>
 )
@@ -30,7 +30,7 @@ export const baseOptions: BaseLayoutProps = {
 			<>
 				{logo}
 				<span className="font-medium [.uwu_&]:hidden [header_&]:text-[15px]">
-					Atelier-fuer-innovationen
+					Bundesamt für Sicherheit in der Informationstechnik
 				</span>
 			</>
 		),
