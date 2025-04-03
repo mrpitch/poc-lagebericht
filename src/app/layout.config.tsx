@@ -2,7 +2,7 @@ import Image from 'next-export-optimize-images/image'
 import Logo from '@/public/images/logo-bsi.svg'
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared'
 
-import { HousePlus, Building2, ComponentIcon } from 'lucide-react'
+import { ShieldCheck, ComponentIcon } from 'lucide-react'
 
 /**
  * Shared layout configurations
@@ -38,21 +38,28 @@ export const baseOptions: BaseLayoutProps = {
 	links: [
 		{
 			type: 'menu',
-			text: 'Einführung',
+			text: 'Lageberichte',
 			url: '/docs',
 			items: [
 				{
-					icon: <HousePlus />,
-					text: 'Atelier',
+					icon: <ShieldCheck />,
+					text: 'Die Lage der IT-Sicherheit in Deutschland 2025',
 					description: 'Einfache Erstellung von Dokumentationen',
-					url: '/docs/atelier',
+					url: '/docs/lagebericht-2025',
 				},
 				{
-					icon: <Building2 />,
-					text: 'Xeniapolis',
+					icon: <ShieldCheck />,
+					text: 'Die Lage der IT-Sicherheit in Deutschland 2024',
 					description:
 						'Generate interactive playgrounds and docs for your OpenAPI schema.',
-					url: '/docs/xeniapolis',
+					url: '/docs/lagebericht-2024',
+				},
+				{
+					icon: <ShieldCheck />,
+					text: 'Die Lage der IT-Sicherheit in Deutschland 2034',
+					description:
+						'Generate interactive playgrounds and docs for your OpenAPI schema.',
+					url: '/docs/lagebericht-2023',
 				},
 				{
 					icon: <ComponentIcon />,

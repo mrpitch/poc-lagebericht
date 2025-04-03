@@ -2,6 +2,8 @@
     "pages": [
         "index",
         "lagebericht-2025",
+        "lagebericht-2024",
+        "lagebericht-2023",
         "components",
         "!impressum"
     ]
