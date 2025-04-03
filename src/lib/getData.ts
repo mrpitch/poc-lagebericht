@@ -20,6 +20,12 @@ export type TChartData = {
 			fill: string
 		}>
 	}
+	'chart-radar-grid-filled': {
+		data: Array<{
+			month: string
+			desktop: number
+		}>
+	}
 }
 
 export const getChartData = async (): Promise<TChartData> => {

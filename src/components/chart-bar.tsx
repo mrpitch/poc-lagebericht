@@ -45,8 +45,6 @@ export function ChartBar({ chartKey }: { chartKey: keyof TChartData }) {
 		fetchData()
 	}, [chartKey])
 
-	console.log('chartData', chartData)
-
 	return (
 		<Card>
 			<CardHeader>
