@@ -1,0 +1,347 @@
+---
+title: Schwachstellen und Bedrohungen von IT-Systemen
+description: Lore Ipsum
+---
+
+import { ChartRadarGridFilled } from '@/components/chart-radar-grid-filled'
+import { ChartArea } from '@/components/chart-area'
+import { ChartBar } from '@/components/chart-bar'
+import { ChartPie } from '@/components/chart-pie'
+
+## Sicherheitslücken
+
+Sicherheitslücken in komplexer Software lassen sich nicht völlig vermeiden. Die
+Qualität einer Software macht sich auch daran fest, wie gut und schnell der Hersteller mit einem Update reagiert und so das Ausnutzen (engl. „Exploit“) der Sicherheitslücke durch ein Schadprogramm verhindert. Zu oft sind jedoch heute die Updates
+selbst fehlerhaft, beheben nicht die Schwachstelle und ihre Einführung erfolgt zu
+spät. Aus Unkenntnis der Nutzer, aus Nachlässigkeit oder Zeitknappheit werden
+zudem verfügbare Updates nicht flächendeckend und zeitnah angewandt. Zwischen
+Juli und Dezember 2004 wurden mehr als 1.400 neue Schwachstellen entdeckt
+[15] – ein Anstieg von 13 Prozent im Vergleich zu den vorangegangenen sechs
+Monaten.
+
+<ChartRadarGridFilled chartKey="chart-radar-grid-filled" />
+
+Die Exploits, mit denen Angreifer die Kontrolle über ein System erlangen, sind
+über das Internet leicht zugänglich [15]. Laut einer Studie erfolgten im Jahr 2004
+Lage der IT-Sicherheit in Deutschland 2005 Seite 15
+etwa 30 Prozent aller Angriffe auf IT-Systeme unter Ausnutzung einer bekannten
+und 15 Prozent unter Ausnutzung einer noch nicht bekannten Schwachstelle im
+Betriebssystem. Damit rangieren Exploits auf Platz drei beziehungsweise fünf der
+verbreitetsten Angriffsmethoden (siehe Abbildung 3). Dennoch will nur jeder
+zweite IT-Verantwortliche in den kommenden zwölf Monaten der Betriebssystemsicherheit einen größeren Stellenwert einräumen [8].
+Der Zeitraum zwischen Bekanntwerden einer Schwachstelle und ihrer Ausnutzung
+ist bereits heute klein. Durchschnittlich benötigen Angreifer 6,4 Tage, um Methoden
+zur Übernahme von Systemen zu entwickeln [15].
+In dieser kurzen Zeitspanne werden oft weder die notwendigen Programmupdates
+zur Verfügung gestellt noch Maßnahmen entwickelt, um die Systeme auf andere
+Weise zu schützen.
+Die Zahl so genannter Zero-Day-Exploits nimmt zu. Diese Angriffe sind besonders
+bedrohlich, da bereits wenige Stunden oder sogar zeitgleich nach Bekanntwerden
+einer Schwachstelle entsprechende Exploits zum Ausnutzen im Umlauf sind. Den
+Opfern stehen in diesem kurzen Zeitraum noch keine Updates oder Hinweise zu
+Gegenmaßnahmen zur Verfügung.
+
+## Schadprogramme
+
+### Viren, Würmer, Spyware
+
+Die starke Verbreitung von Standardsoftware und so genannte „Monokulturen“
+bei Betriebssystemen gefährden zunehmend die gesamte Informationstechnik.
+Durch die Dominanz eines einzelnen Produktes am Markt sind die in dem Produkt
+vorhandenen Schwachstellen besonders weit verbreitet und führen bei Ausnutzung
+zu hohen Schäden. Angreifer zielen daher mit Schadprogrammen, der am weitesten
+verbreiteten Angriffsform gegen IT-Systeme, bevorzugt auf Sicherheitslücken dieser
+Produkte. Hauptquelle für die Verteilung von Computerviren sind insofern arglose
+Nutzer von Privat- und Unternehmensrechnern.
+In der zweiten Hälfte des Jahres 2004 wurden mehr als 7.360 neue Viren- und
+Wurmvarianten registriert. Das ist eine Zunahme von 64 Prozent gegenüber dem
+ersten Halbjahr [15].
+
+<ChartPie chartKey="chart-pie" />
+
+Acht der zehn häufigsten Exemplare waren Varianten von Massenmailer-Würmern,
+darunter Netsky, Sober, Beagle und MyDoom. Die Weiterentwicklung von Schadprogrammen zeigt sich an der Variantenvielfalt: Allein 4.300 eigenständige Varianten
+des Computerwurms Spybot wurden gemeldet. Das entspricht einer Zunahme von
+180 Prozent der zu dieser Familie gehörenden Schadprogramme gegenüber den
+ersten sechs Monaten des Jahres 2004.
+An den Netzknotenpunkten des Kommunikationsnetzes der Bundesverwaltung,
+einer der größten Informationsinfrastrukturen unseres Landes, registrierte das BSI
+noch nie so viele, so gefährliche und so weit verbreitete Viren wie im Jahr 2004.
+Durchschnittlich waren monatlich rund 6 Prozent der E-Mails infiziert, die an den
+zentralen E-Mail-Gateways des Informationsverbundes Berlin-Bonn (IVBB) geprüft
+wurden. Dabei handelte es sich bei über 80 Prozent der gefundenen Schadprogramme um Computerwürmer und Trojanische Pferde. Die Zahl der registrierten
+
+Schadprogramme in den eingehenden E-Mails nimmt weiterhin zu. Im ersten
+Quartal 2005 lag der Anteil der infizierten E-Mails bereits bei 8 Prozent.
+Das Problem verschärft sich, da Schadprogramme sowohl technisch als auch auf
+ihre psychologische Wirkung hin immer effektiver programmiert werden. Zu ihrer
+Verbreitung setzen die Programmierer verstärkt auf die Wirkung des „Social
+Engineerings“. Sie verleiten Anwender durch eine gezielte und zum Teil personalisierte Ansprache, infizierte Anhänge von E-Mails zu öffnen.
+Ein weiterer Trend ist zu beobachten: Computerwürmer werden immer seltener
+dazu programmiert, direkt irreparable Schäden anzurichten. Vielmehr versuchen
+Angreifer, den befallenen Rechner für einen kontinuierlichen Missbrauch unter
+ihre Kontrolle zu bringen. Mit Hilfe Trojanischer Pferde missbrauchen Hacker oft
+mehrere tausend PCs und vermieten diese so genannten Bot-Netze (vgl. Bot-Netze,
+S. 21) für kriminelle Zwecke. Sie dienen als Plattform zur Verbreitung neuer
+Epidemien von Computerschädlingen, für DDoS-Attacken (vgl. DoS-Angriffe,
+S. 19) und Spamversand (vgl. Spam, S. 20).
+
+<ChartArea chartKey="chart-area" />
+
+Die Zeitabstände zwischen neuen Computervirusepidemien werden kontinuierlich
+kürzer, da die Autoren von Schadprogrammen vermehrt auf bereits existierende
+Codes von Computerviren und -würmern zurückgreifen. In Zukunft ist mit Schadprogrammen zu rechnen, die in extrem kurzen Entwicklungszyklen „optimierte“
+Varianten nach sich ziehen und sich noch schneller verbreiten.
+Darüber hinaus ist Spionagesoftware, so genannte Spyware und Adware, zu einem
+Sicherheitsrisiko geworden [15]. Diese Programme sammeln ohne Wissen des Computerbesitzers Informationen und geben diese weiter. Spyware kann beispielsweise Tastaturanschläge mitschreiben, Screenshots anfertigen oder E-Mails mitlesen.
+Das Gefahrenpotenzial von Spyware und Adware ist unterschiedlich. Gefährliche
+Spywareversionen fahnden gezielt nach persönlichen Daten wie Passwörtern, Login-Daten oder Kontonummern. Adware zeichnet Nutzungsgewohnheiten des Anwenders auf, die anschließend zu Marketingzwecken ausgewertet werden. Zwar
+richtet diese Art Software keinen direkten Schaden an, sie ist aber unter Aspekten
+des Datenschutzes bedenklich.
+Die Infektion von IT-Systemen durch Spyware geschieht über aktive Inhalte von
+Webseiten und E-Mails. Da viele Nutzer das Ausführen solcher Inhalte in ihrem Internetbrowser oder E-Mail-Programm zulassen, ist der Anteil von Reinfektionen
+durch den mehrfachen Besuch derselben Webseiten hoch. Adware ist zudem vielfach Bestandteil von Software, die im Internet zum kostenlosen Download angeboten
+wird.
+
+### Trojanische Pferde
+
+Trojanische Pferde sind Programme, die neben einer nützlichen offiziellen Funktion
+eine schädliche nicht dokumentierte Funktion enthalten und diese unabhängig
+und ohne Wissen des Anwenders ausführen. Im Gegensatz zu Computerviren
+können sich Trojanische Pferde jedoch nicht selbstständig verbreiten. Durch das
+unbedachte Ausführen dieser „getarnten“ Programme können beträchtliche Schäden für IT-Systeme und entsprechende finanzielle Schäden für die Nutzer entstehen.
+Wurden in der Vergangenheit mithilfe Trojanischer Pferde auf infizierten Computern
+vor allem vertrauliche Daten ausspioniert, ist inzwischen die Kontrolle über den
+Fremdcomputer das Ziel der Programmierer dieser Schadprogramme. Dazu wird
+ein so genanntes „Backdoor“-Programm installiert, mit dem der Angreifer den
+Computer aus dem Internet steuern kann. Im zweiten Halbjahr 2004 machten
+Trojanische Pferde ein Drittel der 50 häufigsten Internetschädlinge aus [15].
+
+## DoS-Angriffe
+
+Gegen Internetserver gerichtete Angriffe stellen eine Form von Onlinesabotage
+dar. So genannte DoS-Attacken (engl. „Denial of Service“) zielen darauf ab, legitimen
+Nutzern – beispielsweise Kunden eines Internetshops – den Zugriff auf Dienste zu
+verwehren. Um dieses Ziel zu erreichen, überflutet der Angreifer den Server mit
+sinnlosen Datenpaketen und überlastet das System. Je größer die Datenmengen
+sind, desto effektiver ist der Angriff. Deshalb sind zunehmend verteilte (distributed)
+Denial-of-Service-Attacken (DDoS) zu registrieren. Bei dieser Angriffsmethode
+verschaffen sich Angreifer zunächst Ausführungsrechte auf mehreren ungeschützten
+Computern Dritter. Nachdem auf diesen eine DDoS-Software installiert worden ist,
+können mithilfe dieser Rechner koordinierte Angriffe gestartet werden.
+
+In Deutschland gaben 15 Prozent der IT-Beauftragten in Unternehmen an, zwischen
+Ende 2002 und Mai 2004 mit DoS-Angriffen konfrontiert gewesen zu sein [8].
+DDoS-Attacken stellen eine ernste Bedrohung für den regulären Betrieb von Webservern dar. Mit den bisher zur Verfügung stehenden Methoden lassen sich DDoSAngriffe erschweren, ganz ausschalten lassen sich die Gefahren jedoch nicht. Auf
+dem neuesten Stand der Technik abgesicherte Serversysteme schützen zumindest
+vor solchen Angriffen, die einen fehlerhaften Programmcode ausnutzen. Internetprovider setzen jedoch zu selten gezielte Schutzmaßnahmen ein, um beispielsweise
+das Fälschen von IP-Adressen (IP-Spoofing) zu verhindern. Das erschwert die
+Bekämpfung dieser Angriffsmethode.
+
+## Spam
+
+Neben dem World Wide Web hat sich E-Mail zu einer wichtigen Anwendung des
+Internets entwickelt. Ein Ausfall dieses Dienstes ist für viele Nutzer nur für kurze
+Zeit tolerabel. Spam-Mails können Ursache für solche Ausfälle sein. Mittlerweile
+beträgt der Anteil von Spamnachrichten zwischen 60 und 90 Prozent aller E-Mails
+[1]. Im Behördennetz IVBB lag die Zahl im Jahr 2004 bei 65 Prozent. Dabei ist eine
+deutliche Zunahme im Vergleich zum Vorjahr zu erkennen, in dem der Spamanteil
+noch bei 49 Prozent lag.
+Die Versender passen Spam-Mails thematisch zunehmend an aktuelle Anlässe und
+Feiertage an, um die Adressaten zum Öffnen ihrer Nachrichten zu bewegen. Neben
+der kommerziellen Spamwerbung werden in Deutschland auch Kettenbriefe
+(Hoaxes), falsche Viruswarnungen und erstmalig 2004 auch fremdenfeindliche
+Inhalte verschickt. In der Folge hoher Spamaufkommen kommt es unter anderem
+zu Arbeitszeitausfällen, zur Überlastung technischer Komponenten oder zu Kosten
+für den unerwünschten Datenverkehr.
+Es ist ein direkter Zusammenhang zwischen Spam und Schadprogrammen erkennbar:
+Spezielle Massenmailerwürmer suchen auf dem infizierten Computer gespeicherte
+E-Mail-Adressen, um Spamnachrichten, Computerviren und -würmer dorthin zu
+versenden. Der massenhafte Versand von Schadprogrammen kann zum Ausbruch
+regelrechter Epidemien führen.
+Seite 20 Lage der IT-Sicherheit in Deutschland 2005
+Trotz des hohen Spamaufkommens werden Antispammaßnahmen in Unternehmen
+und Verwaltungen in Deutschland noch nicht flächendeckend umgesetzt. Mindestens
+neun Prozent der Organisationen sind der Spamflut ungeschützt ausgesetzt [1].
+In der Rangliste der Verbreitung der Antispammechanismen führen Wort- und
+Briefkopf-Analyseverfahren (Header-Analyse) vor so genannten schwarzen und
+weißen Listen, in denen bekannte Spamversender bzw. als sicher geltende Versender aufgelistet sind.
+
+## Bot-Netze
+
+Viele der im Jahr 2004 registrierten Trojanischen Pferde enthalten Funktionen für
+koordinierte Angriffe gegen Internetserver (vgl. DoS-Angriffe, S. 19). Mit dieser
+Methode wird die Zahl der von einem Angreifer kontrollierten Computer und
+damit die Schlagkraft eines verteilten DoS-Angriffs erhöht. Die infizierten Computer
+bilden so genannte Bot-Netze, die sich jederzeit für Angriffe gegen beliebige
+Internetserver und so auch zur Erpressung von Unternehmen einsetzen lassen.
+Auf diese Weise sind Besitzer infizierter Computer nicht mehr nur Opfer, sondern
+unwissentlich gleichzeitig auch (Mit-)Täter.
+Bot-Netze stellen eine besondere Gefahr dar, denn Angreifer sind in der Lage,
+jederzeit Kontakt zu den infizierten Computern aufzunehmen und unbemerkt
+weitere Software nachzuladen. So werden beispielsweise nachträglich Programme
+installiert, die zur Weiterleitung von Spam-Mails über die befallenen PCs genutzt
+werden.
+
+<ChartBar chartKey="chart-bar" />
+
+In den ersten sechs Monaten des Jahres 2004 wurde eine stetige Zunahme von
+Computern in Bot-Netzen registriert. Die beobachteten Netze bestanden durchschnittlich aus über 30.000 Computern. In der zweiten Jahreshälfte verloren die Netze
+jedoch rapide an Größe. Zum Ende des Jahres wurden durchschnittlich noch 5.000
+infizierte und ferngesteuerte Computer je Bot-Netz gezählt. Der Einschnitt korrespondierte zeitlich mit der Einführung des Windows-XP-Service-Packs 2 [15].
+Die Hauptursache für die schnelle Verbreitung von Bot-Netzen liegt in der großen
+Zahl von Computern mit schnellen und ständig mit dem Netz verbundenen
+Internetzugängen, bei denen es Nutzern kaum auffällt, wenn auf ihrem PC unkontrollierte Prozesse ablaufen. Zwar minimiert das Einspielen von Sicherheitsupdates
+Lage der IT-Sicherheit in Deutschland 2005 Seite 21
+offensichtlich die Gefahr von Bot-Netzen, ein nicht flächendeckender Einsatz
+adäquater Schutzmaßnahmen verhindert jedoch, dass ihre Ausbreitung generell
+unterbunden wird.
+
+## Phishing
+
+E-Commerce-Infrastrukturen und Onlinebezahlsysteme sind zunehmend durch
+Angriffe auf vertrauliche Informationen bedroht. Eine weit verbreitete Methode
+für Betrugsversuche sind gefälschte E-Mails, so genannte Phishing-Mails. Diese
+massenhaft versendeten Nachrichten werden mit einer gefälschten Absenderadresse
+versehen. Die Versender kopieren die Aufmachung offizieller E-Mails bekannter
+Unternehmen, um das Vertrauen der Kunden zu erschleichen. Über einen Link
+in der E-Mail werden die Kunden auf eine Webseite geführt, die der Seite des
+Unternehmens nachempfunden ist. Hier versuchen die Betrüger Nutzerdaten
+Seite 22 Lage der IT-Sicherheit in Deutschland 2005
+Lage der IT-Sicherheit in Deutschland 2005 Seite 23
+auszuspähen und an Passwörter, Daten für das Onlinebanking und Kreditkartennummern der Kunden zu gelangen. Diese Informationen werden anschließend
+für Finanztransaktionen missbraucht.
+
+## Dialer
+
+Dialer sind Programme zur Abrechnung einer erbrachten Leistung über die Telefonrechnung (Micro-Payment). Im Internet werden damit kostenpflichtige Informationen
+oder Downloads abgerechnet. Dazu muss der Betreiber eines Dialers eine Zulassung
+bei der Regulierungsbehörde für Telekommunikation und Post (Reg TP) beantragen.
+Es existieren jedoch auch illegale Dialer, die sich unbemerkt auf dem betroffenen
+Computer installieren und über teure Rufnummern eine Internetverbindung herstellen, ohne dass der Benutzer dies bemerkt. Oft gehen diese Internetverbindungen
+ins Ausland oder es werden teure Satellitenverbindungen hergestellt. 2004 war
+ein merklicher Anstieg dieser illegalen Dialer zu verzeichnen.
+
+## Neue Technologien und IT-Sicherheit
+
+Die Bedeutung neuer Übertragungstechnologien wie Bluetooth, WLAN oder UMTS
+nimmt zu. Die Zukunft mobiler Anwendungen, die auf drahtlose Kommunikationssysteme aufsetzen, hängt entscheidend von der Bewältigung bestehender Sicherheitsprobleme ab. Ohne Sicherheitsmechanismen können Angreifer leicht Datenverkehr
+verfolgen, verändern oder anderweitig manipulieren. Im Folgenden wird das
+Risikopotenzial der wesentlichen neuen Technologien und Anwendungen dargestellt.
+
+### Internettelefonie – VoIP
+
+Mit Voice over IP (VoIP) ist Sprachkommunikation nicht mehr auf das Telefonnetz
+begrenzt, sondern kann auch über IP-basierte Netze wie das Internet übertragen
+werden. Ein mit dem Internet verbundener Computer übernimmt hier die Funktion
+des Telefons. Experten gehen davon aus, dass VoIP in den nächsten zehn Jahren
+die bisherige Telefontechnik vollständig ablösen wird.
+Seite 24 Lage der IT-Sicherheit in Deutschland 2005
+Das Internet bietet allerdings hierfür keine besonderen Sicherheitsmechanismen,
+sodass ein großes Bedrohungspotenzial für neuartige VoIP-Anwendungen besteht.
+Unverschlüsselte Telefonate lassen sich leichter als im herkömmlichen Telefonnetz
+abhören, auch sind Angriffe durch massenhaften Spamversand oder die Verbreitung
+spezieller Schadprogramme zu erwarten.
+
+### Mobile Datenübertragung – WLAN
+
+Wireless Local Area Networks (WLAN) werden als ergänzende breitbandige Zugangstechnologie immer stärker genutzt. Bereits 11 Prozent der befragten Unternehmen
+in Deutschland setzten im Jahr 2004 drahtlos vernetzte Computer ein, im Vorjahr
+waren es nur 5 Prozent.
+In der Nähe eines WLAN-Zugangspunkts, des so genannten „Hotspots“, können
+mobile Computer wie Notebooks oder PDAs ohne Kabelverbindung Zugriff auf
+das Internet erhalten. Neben dem Internetzugriff über Hotspots ist die Verwendung
+von WLAN zur Erweiterung eines kabelgebundenen LANs ein wichtiges Einsatzfeld.
+Ein nicht ausreichend gesichertes WLAN birgt jedoch große Sicherheitsrisiken.
+Über einen offenen Zugang kann ein Angreifer beispielsweise sensible Daten
+sammeln oder unbemerkt modifizieren. Zudem können Spamversender ungesicherte
+WLANs nutzen, um Spam-Mails zu versenden. Der Nachweis eines solchen Missbrauchs ist nur schwer möglich, da häufig die Zugriffe nicht protokolliert werden.
+In Zukunft könnten Schadprogramme unmittelbar über drahtlose Netze verbreitet
+werden. Zudem besteht die Möglichkeit von Imageschäden oder finanziellen
+Schäden, wenn z. B. strafrechtlich relevante Inhalte heruntergeladen werden.
+
+### Prozessleitsysteme – SCADA
+
+Unternehmen, Verwaltungen und private Haushalte sind von der ständigen
+Verfügbarkeit von Infrastrukturen beispielsweise zur Strom- oder Wasserversorgung
+abhängig. Viele dieser Infrastrukturen verwenden spezielle Prozessleitsysteme,
+auch SCADA-Systeme (Supervisory Control and Data Acquisition) genannt, zur
+Steuerung der verschiedenen Funktionen. Zur Vernetzung ihrer Komponenten
+nutzen diese Systeme heute immer häufiger die gleiche Technologie wie Computernetze. Hat ein Angreifer Zugang zum Netz des Prozessleitsystems, kann er von
+„normalen“ Computersystemen her bekannte Angriffsmethoden nutzen, um die
+Funktionen des Systems zu beeinträchtigen.
+Das Gefahrenpotenzial ist groß, da bei vielen SCADA-Systemen aufgrund der besonderen Anforderungen die Standardsicherheitsmaßnahmen nicht immer angewandt
+werden. Schutzmaßnahmen wie Netzwerkmonitore, Intrusion-Detection-Systeme
+und der Einsatz von Firewalls mit sehr restriktiven Regeln dürfen die Funktionalität
+der Prozessleitsysteme nicht beeinträchtigen.
+Bei der Entwicklung vieler SCADA-Komponenten ist der Aspekt der IT-Sicherheit
+nicht ausreichend berücksichtigt worden. Zudem wurden Sicherheitsmechanismen wie Authentifizierung und Verschlüsselung nicht implementiert. Erschwerend
+kommt hinzu, dass die Unternehmen für die eingesetzten Prozessleitsysteme zu
+wenig Risikoanalysen durchführen.
+
+### Mobiltelefone und PDAs
+
+Im Jahr 2004 besaß in 78 Prozent der deutschen Haushalte mindestens eine Person
+ein Mobiltelefon. Deutlich zugelegt hat die Ausstattung mit internetfähigen
+Mobiltelefonen: 2003 war in 17 Prozent der Haushalte ein solches Mobiltelefon
+vorhanden, 2004 lag der Wert bereits bei 22 Prozent. 14 Prozent der Haushalte,
+Lage der IT-Sicherheit in Deutschland 2005 Seite 27
+die ein internetfähiges Mobiltelefon besitzen, gaben an, das Mobiltelefon auch
+tatsächlich als Internetzugang zu verwenden [13].
+Die Entwicklung moderner Mobiltelefone hin zu kleinen Computern mit eigenem
+Betriebssystem sowie einer Vielzahl von Anwendungen und Außenschnittstellen
+birgt eine Reihe von Risiken. Im Juni 2004 trat mit Cabir das erste Schadprogramm
+für Mobiltelefone auf. Der Wurm ist nur ein „Proof of Concept“, also ein Testwurm,
+und enthält keine Schadfunktion. Er versucht, per Bluetooth Kontakt zu anderen
+Endgeräten aufzunehmen und sich dort zu installieren.
+Das Schadprogramm Dampig A verbreitet sich seit Ende 2004 ebenfalls über
+Bluetooth und versucht, Cabir-Varianten auf dem Mobiltelefon zu installieren. Neu
+an diesem Wurm: Er zerstört die Deinstallationsinformationen im System und
+kann deshalb nur mit einem Antivirenwerkzeug entfernt werden. Ende 2004 gab
+es ca. 21 bekannte Schadprogramme für mobile Anwendungen, einige bereits in
+mehreren Varianten.
+
+Derzeit ist das Risiko einer Infektion mobiler Endgeräte durch Schadprogramme
+noch gering. Bislang sind nur wenige Viren im Umlauf, zudem begrenzt der
+Übertragungsweg Bluetooth ihre Reichweite auf nur wenige Meter. Allerdings
+können auch andere Funkschnittstellen wie z. B. GSM oder UMTS für die Verbreitung
+von Schadprogrammen genutzt werden. In diesem Fall wäre eine Übertragung
+über größere Distanzen hinweg möglich.
+Mit wachsendem Funktionsumfang der mobilen Kommunikationsgeräte nehmen
+generell die Angriffsmöglichkeiten zu. In Zukunft könnten Daten zerstört und
+missbraucht oder ungewollt teure Telefonverbindungen aufgebaut werden. Beruflich
+eingesetzte mobile Endgeräte befinden sich zudem oft außerhalb der Sicherheitsgrenzen des Unternehmensnetzes. Verfügen sie über einen Netzzugang, können
+sie für einen Einbruch in die IT-Systeme eines Unternehmens missbraucht werden.
+Schutzmaßnahmen wie Virenscanner oder Firewalls werden zwar mittlerweile
+auch für eine Reihe mobiler Endgeräte angeboten, sind jedoch noch kaum verbreitet.
+
+## Innentäter, Irrtum und Nachlässigkeit
+
+IT-Schäden innerhalb von Organisationen sind in vielen Fällen auf Innentäter,
+d.h. eigene Mitarbeiter, zurückzuführen [5]. Da dieser Personenkreis häufig berechtigt ist, auf von außen nicht zugängliche IT-Systeme zuzugreifen, und gleichzeitig
+über detailliertes internes Wissen verfügt, sind die Auswirkungen unbeabsichtigter
+Fehlbedienungen oder vorsätzlicher Manipulationen gravierend.
+Vorsätzliche Handlungen führen zwar seltener als Irrtum und Nachlässigkeit zu
+Schäden, ihre Auswirkungen sind dafür kritischer und vor allem schwieriger zu
+entdecken. Als Motivation der Täter kommen Neugier, Rachegefühle, Neid und
+persönliche Bereicherung in Frage. Innentäter manipulieren interne Daten zum
+Nachteil der Organisation oder gelangen an vertrauliche Informationen zu
+Mitarbeitern, Entwicklungsvorhaben oder Vertragsverhandlungen.
+Auch das nachlässige Öffnen von E-Mail-Anhängen mit Schadprogrammen oder
+das versehentliche Löschen wichtiger Dateien richtet großen Schaden an.
+
+## Strukturelle Schwächen
+
+Die Verlässlichkeit von IT-Strukturen genügt heute immer öfter nicht mehr den
+gestellten Anforderungen. Ursache ist zum einen der immer komplexere Aufbau
+einzelner IT-Systeme, deren Zusammenspiel im Gesamtsystem eines Unternehmens
+oder einer Verwaltung immer schwerer zu durchblicken ist. Hinzu kommen die
+hohen Innovationsraten in der Informationstechnik und die unzureichenden
+Ressourcen der IT-Abteilungen in Wirtschaft und Verwaltung.
+Beobachtungen des BSI zeigen, dass wesentliche IT-Störungen in Kritischen Infrastrukturen heute häufig nicht auf externe oder interne Angriffe zurückzuführen
+sind. Bereits ein einfaches Systemversagen zeitigt schwerwiegende Folgen. Aufgrund
+der umfassenden Vernetzung mit anderen Systemen ziehen Störungen Dominoeffekte
+nach sich, die zuvor nicht hinreichend bedacht worden sind. Große Probleme
+ergeben sich aus fehlenden Prozessanalysen, geringen Redundanzen bei IT-Systemen
+und Leitungsführungen, ungenügenden Krisen- und Notfallplänen sowie einer
+nicht ausreichenden Sensibilisierung des Managements.

@@ -1,0 +1,14 @@
+{
+    "title": "Die Lage der IT-Sicherheit in Deutschland 2024",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+    "root": true,
+    "icon": "ShieldCheck",
+    "pages": [
+        "index",
+        "it-sicherheitsbewusstsein",
+        "schwachstellen-und-bedrohungen",
+        "trends-und-entwicklungen",
+        "aktivitaeten",
+        "fazit"
+    ]
+}

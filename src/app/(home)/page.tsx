@@ -1,8 +1,7 @@
 import Link from 'next/link'
 
-import { HomeHero } from '@/app/_components/home-hero'
 import { Cards, Card } from '@/components/card'
-import { AlbumIcon, Book, ComponentIcon, Rocket } from 'lucide-react'
+import { ComponentIcon, ShieldCheck } from 'lucide-react'
 
 export default function HomePage() {
 	const gridColor =
@@ -19,26 +18,33 @@ export default function HomePage() {
 
 			<main className="relative z-[2] container max-w-[1100px] px-2 py-4 lg:py-8">
 				<div className="relative">
-					<HomeHero />
-
 					<div className="mt-24 flex flex-col items-center justify-center">
 						<Cards>
-							<Link href="/docs">
-								<Card icon={<Rocket />} title="Einführung">
+							<Link href="/docs/lagebericht-2025">
+								<Card
+									icon={<ShieldCheck />}
+									title="Die Lage der IT-Sicherheit in Deutschland 2025"
+								>
 									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut labore et dolore magna
 									aliquyam erat, sed diam voluptua.
 								</Card>
 							</Link>
-							<Link href="/docs/atelier">
-								<Card icon={<Book />} title="Atelier">
+							<Link href="/docs/lagebericht-2024">
+								<Card
+									icon={<ShieldCheck />}
+									title="Die Lage der IT-Sicherheit in Deutschland 2023"
+								>
 									At vero eos et accusam et justo duo dolores et ea rebum. Stet
 									clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
 									dolor sit amet.
 								</Card>
 							</Link>
-							<Link href="/docs/xeniapolis">
-								<Card icon={<AlbumIcon />} title="Xeniapolis">
+							<Link href="/docs/lagebericht-2023">
+								<Card
+									icon={<ShieldCheck />}
+									title="Die Lage der IT-Sicherheit in Deutschland 2023"
+								>
 									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
 									diam nonumy eirmod tempor invidunt ut labore et dolore magna
 									aliquyam erat, sed diam voluptua.
